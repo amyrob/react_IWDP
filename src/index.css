@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  font-family: Verdana, Arial, sans-serif;
+  color: white;
+  background-color: #777777;
+}
+
+div.movie-container {
+  margin: 20px;
+  width: 700px;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border: 2px solid #daa427;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.movies-1 {
+  width: 350px;
+  height: 450px;
+
+}
+
+.movies-2 {
+  width: 350px;
+  height: 450px;
+
+}
