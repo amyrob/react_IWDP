@@ -3,7 +3,7 @@ import Movie from './Movie.js';
 
 class MovieList extends Component {
   render() {
-    const commentNodes = this.props.data.map((movie) => {
+    const movieNodes = this.props.data.map((movie) => {
       return(
         <Movie title={movie.title} key={movie.id}/>
       );
@@ -12,7 +12,8 @@ class MovieList extends Component {
     return (
       <div className="movie-list">
         <h3>Title</h3>
-        {commentNodes}
+        ul
+        {movieNodes}
       </div>
     );
   }
