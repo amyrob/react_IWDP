@@ -15,6 +15,11 @@ div.movie-container {
   border: 2px solid #daa427;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 h1 {
   font-size: 30px;
 }

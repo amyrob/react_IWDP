@@ -5,15 +5,18 @@ class MovieList extends Component {
   render() {
     const movieNodes = this.props.data.map((movie) => {
       return(
-        <Movie title={movie.title} key={movie.id}/>
+        <li>
+          <Movie title={movie.title} key={movie.id}/>
+        </li>
       );
     });
 
     return (
       <div className="movie-list">
         <h3>Title</h3>
-        ul
-        {movieNodes}
+        <ul>
+          {movieNodes}
+        </ul>
       </div>
     );
   }
